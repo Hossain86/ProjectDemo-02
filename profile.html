@@ -1,0 +1,62 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Profile</title>
+
+  <link rel="stylesheet" href="profile.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Scheherazade+New:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+</head>
+<body>
+  <!-- Navbar Code goes here -->
+  <nav>
+    <div class="sidenav">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+      <a href="#"><img src="img/user.png" class="nav-img"></a>
+      <a href="welcome.html">Home</a>
+      <a href="profile.html">Profile</a>
+      <a href="#">Performance</a>
+      <a href="#">About</a>
+      <a href="#">Contact</a>
+      <a href="#"class="btn" onclick="logout()">Logout</a>
+    </div>
+    <div class="navbar">
+      <span class="open" style="font-size: 20px;">&#9776; Open</span>
+      <h2 style="cursor: pointer;" onclick='window.location.href="/welcome.html";'>The Ultimate Exam Website</h2>
+      <a href="profile.html"><img src="img/user.png" title="Profile" class="nav-img"></a>
+    </div>
+  </nav>
+
+
+  <div class="main-menu">
+    <div class="upper-part">
+      <img src="img/user.jpg" style="height: 100px;border-radius: 50%;">
+      <h1>Profile</h1>
+      <p>Hello, Abdur Rahman</p>
+      <span>Email</span>
+    </div>
+    <div class="middle-part">
+      <h2>Thematic progression</h2>
+      <div class="subjects">
+        <h3>Discrete Mathemathics</h3>
+        <img src="img/Discrete-progress.png" style="height: 300px;" title="Progress on this Subject">
+      </div>
+      <div class="subjects">
+        <h3>Digital Logic Design</h3>
+        <img src="img/dld-progress.png" style="height: 300px;" title="Progress on this Subject">
+      </div>
+      <div class="subjects">
+        <h3>Digital Logic Design</h3>
+        <img src="img/dld-progress.png" style="height: 300px;" title="Progress on this Subject">
+      </div>
+    </div>
+  </div>
+  
+</div>
+  <script src="script.js"></script>
+</body>
+</html>
